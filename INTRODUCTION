@@ -1,0 +1,18 @@
+### ROBOTIC PROCESS AUTOMATION FOR SALES ANALYTICS IN ENTERPRISE RESOURCE PLANNING (PYTHON-SELENIUM)###
+
+- Using Python to create 3 robots to automate the entire process of extracting sales data from Sage X3 (ERP system) to setting up the Tableau visualization
+
+- 1st robot: Extract the excel files (Sales data) from Sage X3
+
+- 2nd robot: Combine the excel files
+
+- 3rd robot: Upload the merged file to the Azure MySQL Database
+
+- Synchronise the local database with Azure MySQL database (To keep the data up to date)
+
+- Connect Tableau Cloud and local database by using Tableau Bridge
+
+- Tableau visualization will be updated when it arrives at the data refresh scheduled time.
+
+- Manage to show an exponential of 600% increase in speed to combine the excel files and 800% upgrade in speed to upload the extracted data to Azure MySQL Database 
+  (Comparison between manual human work and Robotic Process Automation)
